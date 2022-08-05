@@ -33,7 +33,9 @@ time.sleep(5)
 pixels.fill((0, 255, 0))
 pixels.show()
 
+# Set the number of pixel the mouse will moved
 mdelta = 2
+# set the time in second between 
 mloop = 30
 mloopS = int(round(mloop * 0.1))
 mloopE = int(round(mloop * 0.9))

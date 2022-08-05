@@ -1,7 +1,7 @@
 <h1 align="center">NeoPicoJiggler</h1>
 
 <div align="center">
-  <strong>Make a nice mouse jiggler wit a NeoPixel control</strong>
+  <strong>Make a nice mouse jiggler with a NeoPixel control</strong>
 </div>
 
 <br />
@@ -39,7 +39,6 @@ Install and have your NeoPicoJiggler working in less than 5 minutes.
 If you need the NeoPicoJiggler to not show up as a USB mass storage device for stealth, follow these instructions.  
 Enter setup mode.  
 Copy boot.py to the root of the NeoPicoJiggler.  
-Copy your payload script to the NeoPicoJiggler.  
 Disconnect the pico from your host PC.
 Connect a jumper wire between pin 18 (`GND`) and pin 20 (`GPIO15`).
 This will prevent the NeoPicoJiggler from showing up as a USB drive when plugged into the target computer.  

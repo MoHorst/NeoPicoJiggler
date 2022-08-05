@@ -34,8 +34,9 @@ Install and have your NeoPicoJiggler working in less than 5 minutes.
 
 ### NeoPixel
 1. connect NeoPixel din to Pin 1
+2. copy neopixel.mpy to `lib`.
+
 ![Prototyp](images/NeoPicoJiggler.png)
-2 copy neopixel.mpy to `lib`.
 
 
 #### USB enable/disable mode

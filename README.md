@@ -32,9 +32,13 @@ Install and have your NeoPicoJiggler working in less than 5 minutes.
 
 6. Click [here](https://raw.githubusercontent.com/dbisu//MoHorst/NeoPicoJiggler/code.py), press CTRL + S and save the file as `code.py` in the root of the Raspberry Pi Pico, overwriting the previous file.
 
+### NeoPixel
+1. connect NeoPixel din to Pin 1
+![Prototyp](images/NeoPicoJiggler.png)
+2 copy neopixel.mpy to `lib`.
 
 
-### USB enable/disable mode
+#### USB enable/disable mode
 
 If you need the NeoPicoJiggler to not show up as a USB mass storage device for stealth, follow these instructions.  
 Enter setup mode.  
